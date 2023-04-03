@@ -53,3 +53,17 @@
         transform: translate(-100%);
     }
 }
+
+@media only screen and (max-width: 440px) {
+    .video__footer {
+        bottom: 22%;
+    }
+
+    .video__footer__music__text {
+        width: 78%;
+    }
+
+    .video__footer__record {
+        bottom: 3px;
+    }
+}
